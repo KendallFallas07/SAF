@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 ago 2024, 11:29:39
+    Author     : brayan
+*/
+
+#login{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+#login div{
+    display: grid;
+
+}
+#login span a{
+    margin : 2ch;
+}
+#login span{
+    margin : 1ch;
+}
+#login input{
+    width: 30ch;
+    height: 5ch;
+    font-size: large;
+}
+#login label{
+    margin: 1ch;
+}
+
+#modal-login:-internal-dialog-in-top-layer::backdrop {
+    position: fixed;
+    inset: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#modal-login{
+    border-radius: 4%;
+    border-style: none;
+}

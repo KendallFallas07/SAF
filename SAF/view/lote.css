@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 26, 2024, 12:01:42 AM
+    Author     : ceasarcalvo
+*/
+#FORM{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+.DIV{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.no-select {
+    pointer-events: none;
+    background-color: #f0f0f0; 
+    color: #a0a0a0; 
+}
