@@ -1,0 +1,50 @@
+/* 
+    Created on : 29 ago 2024, 11:51:21
+    Author     : brayan
+*/
+#searchForm{
+    display: flex;
+    flex-direction: column;
+}
+
+#save {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.div-modal-data{
+    display: grid;
+    margin: 1ch;
+}
+
+table{
+    text-align: center;
+    width: -webkit-fill-available;
+
+}
+
+#container-form{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container-form li {
+    border-style: solid;
+    background-color:  #EEEE;
+    text-align: center;
+    list-style-type: none;
+    border-color: #EEEE;
+    color: black;
+    line-height: 100%;
+    width: 19ch;
+    cursor: default;
+    position: fixed;
+}
+
+#container-form ul {
+    padding-left: 0;
+    margin-top:  0;
+    position: relative;
+}
